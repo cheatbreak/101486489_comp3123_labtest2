@@ -1,0 +1,39 @@
+.app-container {
+  background: linear-gradient(135deg, #3b82f6, #1e3a8a);
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.search-bar {
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+}
+
+.search-bar button {
+  padding: 12px 20px;
+  background: black;
+  color: white;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.weather-box {
+  margin-top: 20px;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  display: inline-block;
+  width: 300px;
+}
