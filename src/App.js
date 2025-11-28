@@ -6,7 +6,7 @@ import WeatherCard from "./weatherUI/WeatherCard";
 
 import "./App.css";
 
-const API_KEY = "c0383d042922194fccf1bf41f01730ad";
+const API_KEY = "12a43f64432f1184d5d200658e36729";
 
 function App() {
   const [weather, setWeather] = useState(null);
